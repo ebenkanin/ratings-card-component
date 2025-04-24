@@ -40,7 +40,7 @@ for( let i =0; i< ratings.length; i++){
 
        selectedRating = this.getAttribute('data-value')
 
-       console.log(selectedRating)
+       
 
     })
 
@@ -54,7 +54,7 @@ mainBtn.addEventListener('click', function submitRating(){
         alert('Please select a rating')
          
     } else{
-        console.log('go')
+        
 
         mainContainer.classList.toggle('hidden')
 
