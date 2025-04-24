@@ -25,7 +25,7 @@ for( let i =0; i< ratings.length; i++){
 
         this.classList.remove('bg-white/10')
         this.classList.add('bg-orange-500')
-        this.innerText('bg-black')
+        this.innerText = ('bg-black')
         
 
         // check if any other buttons already have the color indicating they've been selected, applied. if there is, remove.
