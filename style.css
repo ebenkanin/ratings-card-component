@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --font-overpass: "Overpass", "sans-serif";
+}
+
+
+@media(min-width:540px) and (max-width: 600px){
+    .main-container{
+        max-width: 60%;
+    }
+
+}
+
+@media(min-height:798px) and (max-height:820px){
+    .main-container{
+        max-height: 70%;
+        
+    }
+}
+
+@media (min-height: 1030px), (min-height: 1180px) {
+     .main-container {
+      max-height: 350px !important;
+      background: limegreen;
+    }
+  }
+  
